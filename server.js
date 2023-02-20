@@ -1,11 +1,12 @@
 //Require express module
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
+const PORT = 3060;
 
 //Set the view engine to EJS
 app.set('view engine', 'ejs');
 
-app.use(express.static(__diarname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 //routes
 app.get('/', (req, res) =>{

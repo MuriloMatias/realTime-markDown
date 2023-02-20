@@ -4,7 +4,7 @@
   "description": "RealTime Markdown Editor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "starts": "node server.js"
   },
   "repository": {
     "type": "git",
